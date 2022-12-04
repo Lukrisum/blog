@@ -1,8 +1,9 @@
 version: 5.1.0
 variant: default
-logo: /img/logo.svg
+logo: 
+    text: Lukrisum's
 head:
-    favicon: /img/favicon.svg
+    favicon: 
     manifest:
         name: 
         short_name: 
@@ -48,20 +49,20 @@ navbar:
         Tags: /tags
         About: /about
     links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+        GitHub:
+            icon: iconfont icon-GitHub
+            url: https://github.com/lukrisum
 footer:
     links:
         Creative Commons:
-            icon: fab fa-creative-commons
+            icon: iconfont icon-creative-commons
             url: https://creativecommons.org/
         Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
+            icon: iconfont icon-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+        Download Theme on GitHub:
+            icon: iconfont icon-GitHub
+            url: https://github.com/lukrisum/hexo-theme-icarus
 article:
     highlight:
         theme: atom-one-light
@@ -71,43 +72,20 @@ article:
     update_time: true
     licenses:
         Creative Commons:
-            icon: fab fa-creative-commons
+            icon: iconfont icon-creative-commons
             url: https://creativecommons.org/
         Attribution:
-            icon: fab fa-creative-commons-by
+            icon: iconfont icon-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
         Noncommercial:
-            icon: fab fa-creative-commons-nc
+            icon: iconfont icon-creative-commons-nc
             url: https://creativecommons.org/licenses/by-nc/4.0/
 search:
     type: insight
     index_pages: true
 comment:
-    type: disqus
-    shortname: ''
 donates:
-    -
-        type: afdian
-        url: ''
-    -
-        type: alipay
-        qrcode: ''
-    -
-        type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
-    -
-        type: paypal
-        business: ''
-        currency_code: USD
-    -
-        type: wechat
-        qrcode: ''
 share:
-    type: sharethis
-    install_url: ''
 sidebar:
     left:
         sticky: false
@@ -117,29 +95,20 @@ widgets:
     -
         position: left
         type: profile
-        author: Your name
-        author_title: Your title
-        location: Your location
-        avatar: 
-        avatar_rounded: false
+        author: Lukrisum
+        author_title: 
+        location: 
+        avatar: https://avatars.githubusercontent.com/u/91905983?s=400&u=0d382994a6e64d726169bbea1e5916a143e8f14b&v=4
+        avatar_rounded: true
         gravatar: 
-        follow_link: https://github.com/ppoffice
+        follow_link: 
         social_links:
             Github:
-                icon: fab fa-github
-                url: https://github.com/ppoffice
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+                icon: iconfont icon-GitHub
+                url: https://github.com/lukrisum
+            Bilibili:
+                icon: iconfont icon-bilibili
+                url: https://space.bilibili.com/480257899?spm_id_from=333.1007.0.0
     -
         position: left
         type: toc
@@ -147,7 +116,7 @@ widgets:
         collapsed: true
         depth: 3
     -
-        position: left
+        position: 
         type: links
         links:
             Hexo: https://hexo.io
@@ -165,24 +134,13 @@ widgets:
         position: left
         type: tags
         order_by: name
-        amount: 
+        amount: 20
         show_count: true
     -
-        position: left
+        position: 
         type: subscribe_email
         description: 
         feedburner_id: ''
-    -
-        position: left
-        type: adsense
-        client_id: ''
-        slot_id: ''
-    -
-        position: left
-        type: followit
-        description: 
-        action_url: ''
-        verification_code: ''
 plugins:
     animejs: true
     back_to_top: true
@@ -217,4 +175,4 @@ plugins:
 providers:
     cdn: jsdelivr
     fontcdn: google
-    iconcdn: fontawesome
+    iconcdn: 'https://at.alicdn.com/t/c/font_3807960_1in0bwq51qli.css?spm=a313x.7781069.1998910419.53&file=font_3807960_1in0bwq51qli.css'
