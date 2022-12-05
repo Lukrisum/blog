@@ -43,10 +43,10 @@ head:
     rss: 
 navbar:
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
+        主页: /
+        里程碑: /archives
+        分类: /categories
+        标签: /tags
         About: /about
     links:
         GitHub:
